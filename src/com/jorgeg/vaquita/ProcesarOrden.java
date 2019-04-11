@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/ProcesarOrden")
-public class ProcesarOrden extends HttpServlet {
+@SuppressWarnings("serial")
+public class ProcesarOrden extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 	
 	/**
@@ -30,7 +30,7 @@ public class ProcesarOrden extends HttpServlet {
 		request.setAttribute("extra",extra);
 		request.setAttribute("otros",otros);
 		
-		RequestDispatcher myDispatcher = request.getRequestDispatcher("/confirmarPedido.jsp");
+		RequestDispatcher myDispatcher = request.getRequestDispatcher("/confirmarpedido.jsp");
 		myDispatcher.forward(request, response);
 		
 	}

@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   <name>VaquitaWebAppJ</name>
   <description>WebApp para Vaquita</description>
-  <dependencies>
+<dependencies>
    	<dependency>
   		<groupId>javax.servlet</groupId>
   		<artifactId>javax.servlet-api</artifactId>

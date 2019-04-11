@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1>This is output file</h1>
+<c:out value="Jorge Guadarrama"></c:out>
 </body>
 </html>
