@@ -4,4 +4,12 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+   <servlet>
+  <servlet-name>ProcesarOrden</servlet-name>
+  <servlet-class>com.jorgeg.vaquita.FirstServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>ProcesarOrden</servlet-name>
+  <url-pattern>/ProcesarOrden</url-pattern>
+  </servlet-mapping>
 </web-app>
