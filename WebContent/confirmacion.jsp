@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix ="c" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="es_MX">
 <head>
 		<!-- Mobile Specific Meta -->
@@ -10,7 +13,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Hacer un pedido</title>
+		<title>ConfirmaciÛn de pedido</title>
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
 			CSS
@@ -73,25 +76,26 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Hacer un pedido				
-							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="pedido.html">Hacer un pedido</a></p>
+								ConfirmaciÛn de pedido			
+							</h1>
 						</div>	
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->	
-			  <section class="menu-list-area section-gap">
+			<section class="menu-list-area section-gap">
 			  <div class="container">
 						<div>
-							<h1 class="col-md-12 pb-80 header-text text-center">Aqu√≠ es donde podr√°s ordenar lo que quieras</h1>
+							<h1 class="col-md-12 pb-80 header-text text-center">AquÌ podr·s ver lo que ordenaste</h1>
+							<br>
 							<p class="col-md-12 pb-80 header-text text-justified">
-								Actualmente lo principal para esta p√°gina es que ustedes, nuestros clientes, puedan realizar pedidos en l√≠nea y posteriormente pasen a recoger su comida al restaurante.
+								Tu orden ha sido recibida exitosamente 
 							</p>
-						</div>	
+						</div>						
 						</div>
+					</div>
+				</div>	
 			  </section>
-			  
+			<!-- End banner Area -->	
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
