@@ -1,4 +1,5 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix ="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -87,11 +88,14 @@
 						<div>
 							<h1 class="col-md-12 pb-80 header-text text-center">Esta es tu confirmación</h1>
 							<br>
-							<p class="col-md-12 pb-80 header-text text-justified">
-								Tu orden ha sido recibida exitosamente a las 
-							</p>
+							<c:set var="now" value="<%= new java.util.Date()%>"/>
+							<p class="col-md-12 pb-80 header-text text-justified">Tu orden ha sido recibida correctamente a las:  <fmt:formatDate type = "both" value = "${now}" />
+         					</p>
 							<p class="col-md-12 pb-80 header-text text-justified">
 								Este es tu código de apartado
+								<br>
+								<h1 class="col-md-12 pb-80 header-text text-center">1337agnsuq</h1>
+								<br>
 								<a href="index.html" class="primary-btn squire text-uppercase mt-10">Regresar al inicio</a>
 							</p>
 						</div>						
