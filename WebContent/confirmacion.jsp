@@ -13,7 +13,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Confirmación de pedido</title>
+		<title>Confirmación final</title>
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
 			CSS
@@ -85,17 +85,22 @@
 			<section class="menu-list-area section-gap">
 			  <div class="container">
 						<div>
-							<h1 class="col-md-12 pb-80 header-text text-center">Aquí podrás ver lo que ordenaste</h1>
+							<h1 class="col-md-12 pb-80 header-text text-center">Esta es tu confirmación</h1>
 							<br>
 							<p class="col-md-12 pb-80 header-text text-justified">
-								Tu orden ha sido recibida exitosamente 
+								Tu orden ha sido recibida exitosamente a las 
+							</p>
+							<p class="col-md-12 pb-80 header-text text-justified">
+								Este es tu código de apartado
+								<a href="index.html" class="primary-btn squire text-uppercase mt-10">Regresar al inicio</a>
 							</p>
 						</div>						
 						</div>
 					</div>
 				</div>	
 			  </section>
-			<!-- End banner Area -->	
+			<!-- End banner Area -->
+			
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
