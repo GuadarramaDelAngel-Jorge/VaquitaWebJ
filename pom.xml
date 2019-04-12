@@ -41,6 +41,12 @@
   		<version>4.7</version>
   		<scope>test</scope>
   	</dependency>
+  	 <dependency>
+            <groupId>net.sourceforge.jwebunit</groupId>
+            <artifactId>jwebunit-htmlunit-plugin</artifactId>
+            <version>3.3</version>
+            <scope>test</scope>
+        </dependency>
   	<dependency>
   		<groupId>org.glassfish.web</groupId>
   		<artifactId>javax.servlet.jsp.jstl</artifactId>
