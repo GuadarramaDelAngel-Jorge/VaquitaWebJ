@@ -10,7 +10,7 @@ Tabla de contenidos (ToC)
   * [Arquitectura](#arquitectura)
   * [Nota importante](#nota-importante)
 * [Requerimientos](#requerimientos)
-  * [Servidores de aplicacion, web y bases de datos](#servidores-de-aplicacionweb-y-bases-de-datos)
+  * [Servidores de aplicacion, web y bases de datos](#servidores-de-aplicacion-web-y-bases-de-datos)
   * [Paquetes adicionales](#paquetes-adicionales)
   * [Version de Java y JDK](#version-de-java-y-jdk)
 * [Instalacion](#instalacion)
@@ -65,7 +65,7 @@ Para ambiente de desarrollo se implementó una base de datos local con la que se
 Requerimientos
 ==============
 
-Servidores de aplicacion y web y bases de datos
+Servidores de aplicacion, web y bases de datos
 ---------------------------------------------------
 TOMCAT 8.0.53, MySQL y la tecnología que ofrezca AWS que es cambiante y no se podría determinar en este preciso momento.
 
