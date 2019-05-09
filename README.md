@@ -3,16 +3,16 @@
 Tabla de contenidos (ToC)
 -------------------------
 
-* [Condiciones de la licencia Apache-2.0](#condiciones-de-la-licencia-apache-2.0)
+* [Condiciones de la licencia Apache-2.0](#condiciones-de-la-licencia-apache-20)
   * [Descripcion](#descripcion)
-  * [Problema](#problema)
+  * [Problema identificado](#problema-identificado)
   * [Solucion](#solucion)
   * [Arquitectura](#arquitectura)
   * [Nota importante](#nota-importante)
 * [Requerimientos](#requerimientos)
-  * [Servidores de aplicacion y web y bases de datos](#servidores-de-aplicacion-y-web-y-bases-de-datos)
+  * [Servidores de aplicacion,web y bases de datos](#servidores-de-aplicacion-web-y-bases-de-datos)
   * [Paquetes adicionales](#paquetes-adicionales)
-  * [Version de Java y JDK](#version-java-y-jdk)
+  * [Version de Java y JDK](#version-de-java-y-jdk)
 * [Instalacion](instalacion)
   * [¿Como instalar el ambiente de desarrollo?](#como-instalar-el-ambiente-de-desarrollo)
   * [¿Como ejecutar pruebas manualmente?](#como-ejecutar-pruebas-manualmente)
@@ -98,7 +98,7 @@ Es posible instalar las aplicaciones web con formato WAR desde el gestor de apli
 5.	Observarás que aparece una lista de las aplicaciones que ya se encuentren instaladas. Puedes desinstalar cualquiera de ellas usando el botón Replegar, o instalar nuevas aplicaciones usando el botón Desplegar que puedes encontrar más abajo, seleccionando previamente el archivo WAR correspondiente con el botón Selecionar archivo.
 
 
-Configuración
+Configuracion
 -------------
 
 Uso
