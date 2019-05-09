@@ -6,7 +6,7 @@ Tabla de contenidos (ToC)
 * [Condiciones, descripción, problema identificado, solución y arquitectura](#condiciones,-descripcion,-problema-identificado,-solucion-y-arquitectura)
 * [Condiciones de la licencia Apache-2.0](#condiciones-de-la-licencia-apache-2.0)
   * [Descripción](#descripcion)
-  * [Problema identificado, solución, arquitectura](#problema)
+  * [Problema](#problema)
   * [Solución](#solucion)
   * [Arquitectura](#arquitectura)
   * [Nota importante](#nota)
@@ -90,8 +90,10 @@ Es posible instalar las aplicaciones web con formato WAR desde el gestor de apli
 2.	Si no dispones de un usuario configurado para esto, observarás las instrucciones necesarias en la página que aparecerá cuando no hayas podido acceder.
 3.	Te indica que debes registrar en el archivo de configuración tomcat-users.xml, un usuario con perfil de manager-gui. Para ello puedes usar una estructura similar a la que pone de ejemplo:
 
+```
 <role rolename="manager-gui"/>
 <user username="tomcat" password="s3cret" roles="manager-gui"/>
+```
 
 4.	Tras guardar las modifiaciones y reiniciar el servidor, debes poder acceder a la página del gestor de aplicaciones con el usuario que hayas declarado.
 5.	Observarás que aparece una lista de las aplicaciones que ya se encuentren instaladas. Puedes desinstalar cualquiera de ellas usando el botón Replegar, o instalar nuevas aplicaciones usando el botón Desplegar que puedes encontrar más abajo, seleccionando previamente el archivo WAR correspondiente con el botón Selecionar archivo.
@@ -108,4 +110,3 @@ Contenido
 
 Roadmap
 -------
-
