@@ -23,10 +23,9 @@ Tabla de contenidos (ToC)
 * [Uso](#uso)
   * [Seccion de referencia para usuario final](#seccion-de-referencia-para-usuario-final)
   * [Seccion de referencia para usuario administrador](#seccion-de-referencia-para-usuario-administrador)
-* [Contenido](#contenido)
-  * [Guia de contribucion de usuarios](#contribucion-usuarios)
+* [Contribucion](#contribucion)
     * [Clonar repositorio](#clonar-repositorio)
-    * [Crear una nuevo branch](#crear-un-nuevo-branch)
+    * [Crear una nueva branch](#crear-un-nuevo-branch)
     * [Enviar un pull request](#enviar-un-pull-request)
     * [Hacer merge](#hacer-merge)
 * [Roadmap](#roadmap)
@@ -97,15 +96,88 @@ Es posible instalar las aplicaciones web con formato WAR desde el gestor de apli
 4.	Tras guardar las modifiaciones y reiniciar el servidor, debes poder acceder a la página del gestor de aplicaciones con el usuario que hayas declarado.
 5.	Observarás que aparece una lista de las aplicaciones que ya se encuentren instaladas. Puedes desinstalar cualquiera de ellas usando el botón Replegar, o instalar nuevas aplicaciones usando el botón Desplegar que puedes encontrar más abajo, seleccionando previamente el archivo WAR correspondiente con el botón Selecionar archivo.
 
+Como ejecutar pruebas manualmente
+---------------------------------
+1. Seleccionar mediante cualquiera de las opciones disponibles “Hacer un pedido”
+2. Escribir en los campos correspondientes de la orden
+3. Dar click en Generar Pedido
+4. Escribir la hora deseada para recoger el pedido
+5. Dar click en Confirmar
+
+Para utilizar cualquiera de las demás opciones que no sean “Hacer un pedido” sólo basta con navegar por la aplicación.
+
+Como implementar la solución en produccion en un ambiente local o en la nube como Heroku
 
 Configuracion
 -------------
+Configuracion del producto
+--------------------------
+Por el momento únicamente será necesario el archivo WAR, adjunto en el repositorio.
+
+Configuracion de los requerimientos
+-----------------------------------
+No se necesita configuración extra, únicamente el servidor Apache Tomcat con la versión 8.0.53
 
 Uso
 ---
+Seccion de referencia para usuario final
+----------------------------------------
+1. Seleccionar mediante cualquiera de las opciones disponibles “Hacer un pedido”
+2. Escribir en los campos correspondientes de la orden
+3. Dar click en Generar Pedido
+4. Escribir la hora deseada para recoger el pedido
+5. Dar click en Confirmar
 
-Contenido
+Para utilizar cualquiera de las demás opciones que no sean “Hacer un pedido” sólo basta con navegar por la aplicación.
+
+Seccion de referencia para usuario administrador
+------------------------------------------------
+Aún no se considera esta parte.
+
+Contribucion
 ---------
+Clonar repositorio
+======
+Crea una copia local del repositorio ejecutando
+```
+git clone /path/to/repository
+```
+
+Crear una nueva branch
+======================
+1. Crea una nueva rama llamada ```feature_x``` y cámbiate a ella usando ```git checkout -b feature_x```
+2. Vuelve a la branch principal ```git checkout master```
+3. Borra la branch ```git branch -d feature_x```
+
+Una branch nueva no estará disponible para los demás a menos que subas (push) la rama a tu repositorio remoto
+```git push origin <branch>```
+
+
+Enviar un pull request
+======================
+1. Para crear un pul request, debe tener los cambios confirmados en su nueva branch.
+2. Ve a la página del repositorio en github. Y haga clic en el botón "Pull request” en el encabezado del repositorio.
+3. Seleccione la branch con la que desea hacer merge utilizando el menú desplegable "branch principal". Debe dejar el resto de los campos tal como están, a menos que esté trabajando desde una sucursal remota. En ese caso, solo asegúrese de que el repositorio base y la branch base estén configurados correctamente.
+4. Escriba un título y una descripción para el pull request
+5. Finalmente, haga clic en el botón verde "Enviar pull request"
+
+
+Hacer merge
+===========
+Una vez que usted y sus colaboradores estén contentos con los cambios, comenzará a hacer merge a los cambios de master. 
+
+1. Puede usar el botón "Merge pull request de github en la parte inferior de su pull request para hacerle merge a sus cambios. Esto solo está disponible cuando github puede detectar que no habrá conflictos con la branch base. 
+2. Si todo va bien, solo tiene que agregar un commit y hacer clic en "Confirm merge”.
+
 
 Roadmap
 -------
+Que es lo que sigue
+-------------------
+Se trabajará en la segunda versión de la aplicación que consistirá en:
+
+* Despliegue de la aplicación en un servidor en la nube, ya que el negocio no cuenta con infraestructura y yo como desarrollador tampoco se la puedo proporcionar, pero sí orientarlos hacia una solución en línea.
+* Implementación de una base de datos para la administración de la información y su correcta conexión con la nube. El diagrama de ER y las tablas ya se encuentran definidas.
+* Creación de perfiles de acceso dependiendo del tipo de usuario (Dueño, Empleado, Cliente y Administrador)
+* Creación de las funciones específicas para cada tipo de usuario
+* Creación de Login para facilitar la autenticación de usuarios
